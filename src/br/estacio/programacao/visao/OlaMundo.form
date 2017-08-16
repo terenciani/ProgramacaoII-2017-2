@@ -25,48 +25,22 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="lblMensagem" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="btnDigaOla" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="152" max="32767" attributes="0"/>
-              <Component id="txtMensagem" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+              <Component id="lblMensagem" pref="394" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-              <Component id="txtMensagem" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-              <Component id="btnDigaOla" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="lblMensagem" min="-2" pref="12" max="-2" attributes="0"/>
-              <EmptySpace pref="139" max="32767" attributes="0"/>
+              <EmptySpace pref="279" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnDigaOla">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Clique aqui!"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDigaOlaActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblMensagem">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -74,11 +48,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="asdf"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtMensagem">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Digite um texto aqui."/>
       </Properties>
     </Component>
   </SubComponents>

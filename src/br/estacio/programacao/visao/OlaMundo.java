@@ -27,24 +27,13 @@ public class OlaMundo extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnDigaOla = new javax.swing.JButton();
         lblMensagem = new javax.swing.JLabel();
-        txtMensagem = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        btnDigaOla.setText("Clique aqui!");
-        btnDigaOla.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDigaOlaActionPerformed(evt);
-            }
-        });
 
         lblMensagem.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblMensagem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblMensagem.setText("asdf");
-
-        txtMensagem.setText("Digite um texto aqui.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -52,43 +41,19 @@ public class OlaMundo extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(btnDigaOla)
-                        .addGap(150, 150, 150))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(152, Short.MAX_VALUE)
-                .addComponent(txtMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(142, 142, 142))
+                .addComponent(lblMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, 394, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addComponent(txtMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(36, 36, 36)
-                .addComponent(btnDigaOla)
-                .addGap(53, 53, 53)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(lblMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addContainerGap(279, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnDigaOlaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDigaOlaActionPerformed
-        String msg = txtMensagem.getText();
-        
-        txtMensagem.setText("");
-        
-        
-        
-        lblMensagem.setText(msg);
-    }//GEN-LAST:event_btnDigaOlaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -126,8 +91,6 @@ public class OlaMundo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnDigaOla;
     private javax.swing.JLabel lblMensagem;
-    private javax.swing.JTextField txtMensagem;
     // End of variables declaration//GEN-END:variables
 }
