@@ -11,14 +11,13 @@ import javax.swing.JFrame;
  *
  * @author Marcelo
  */
-public class ExemploGerenciadorDeLayout {
-
-    public static void main(String[] args) {
-        JFrame janela = new JFrame("JFrame Manual");
+public class ExemploGerenciadorDeLayout extends JFrame {
+    
+    public ExemploGerenciadorDeLayout(){
         //janela.setBounds(100, 100, 300, 300);
         
-        janela.setSize(300, 300);
-        janela.setLocation(100, 100);
+        this.setSize(300, 300);
+        this.setLocation(100, 100);
         
         
         // Opção que não faz nada ao clicar no X - equivalente à 0
@@ -31,7 +30,13 @@ public class ExemploGerenciadorDeLayout {
         //janela.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         
         // fecha toda a aplicação
-        janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setTitle("Frame Extendido");
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    
+    
+    public static void main(String[] args) {
+        JFrame janela = new ExemploGerenciadorDeLayout();
         janela.setVisible(true);
     }
 }
