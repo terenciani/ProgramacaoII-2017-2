@@ -14,11 +14,11 @@ import javax.swing.JFrame;
  *
  * @author Marcelo
  */
-public class ExemploNullLayout extends JFrame {
+public class ExemploFlowLayout extends JFrame {
 
     private JButton botaoUm, botaoDois, botaoTres;
 
-    public ExemploNullLayout(){
+    public ExemploFlowLayout(){
         Container caixaPrincipal = this.getContentPane();
         FlowLayout flowLayout = new FlowLayout();
         this.setLayout(flowLayout);
