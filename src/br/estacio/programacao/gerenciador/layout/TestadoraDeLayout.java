@@ -17,7 +17,8 @@ public class TestadoraDeLayout {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JFrame janela = new ExemploNullLayout();
+        //JFrame janela = new ExemploNullLayout();
+        JFrame janela = new ExemploFlowLayout();
     }
     
 }

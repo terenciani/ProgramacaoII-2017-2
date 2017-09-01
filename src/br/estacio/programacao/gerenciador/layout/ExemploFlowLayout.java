@@ -21,14 +21,17 @@ public class ExemploFlowLayout extends JFrame {
     public ExemploFlowLayout(){
         Container caixaPrincipal = this.getContentPane();
         FlowLayout flowLayout = new FlowLayout();
+        
+        //flowLayout.setAlignment(FlowLayout.CENTER);
+        //flowLayout.setAlignment(FlowLayout.LEFT);
+        flowLayout.setAlignment(FlowLayout.RIGHT);
+        
         this.setLayout(flowLayout);
         botaoUm = new JButton("Estacio");
         botaoDois = new JButton("Programação II");
         botaoTres = new JButton("2017-2");
         
-        botaoUm.setBounds(10, 10, 150, 140);
-        botaoDois.setBounds(165, 10, 150, 140);
-        botaoTres.setBounds(320, 10, 150, 140);
+       
         
         caixaPrincipal.add(botaoUm);
         caixaPrincipal.add(botaoDois);

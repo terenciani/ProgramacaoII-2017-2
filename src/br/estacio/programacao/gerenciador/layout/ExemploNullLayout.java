@@ -20,8 +20,7 @@ public class ExemploNullLayout extends JFrame {
 
     public ExemploNullLayout(){
         Container caixaPrincipal = this.getContentPane();
-        FlowLayout flowLayout = new FlowLayout();
-        this.setLayout(flowLayout);
+        this.setLayout(null);
         botaoUm = new JButton("Estacio");
         botaoDois = new JButton("Programação II");
         botaoTres = new JButton("2017-2");
