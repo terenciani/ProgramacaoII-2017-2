@@ -22,12 +22,12 @@ public class PanelFrame extends JFrame
       buttonJPanel.setLayout( new GridLayout( 1, buttons.length ) );
 
       // create and add buttons
-      for ( int count = 0; count < buttons.length; count++ ) 
+      /*for ( int count = 0; count < buttons.length; count++ ) 
       {
          buttons[ count ] = new JButton( "Button " + ( count + 1 ) );
          buttonJPanel.add( buttons[ count ] ); // add button to panel
       } // end for
-
+*/
       add( buttonJPanel, BorderLayout.SOUTH ); // add panel to JFrame
    } // end PanelFrame constructor
 } // end class PanelFrame

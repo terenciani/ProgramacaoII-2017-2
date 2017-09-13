@@ -20,7 +20,8 @@ public class TestadoraDeLayout {
         //JFrame janela = new ExemploNullLayout();
         //JFrame janela = new ExemploFlowLayout();
         //JFrame janela = new ExemploBorderLayout();
-        JFrame janela = new ExemploGridLayout();
+        //JFrame janela = new ExemploGridLayout();
+        JFrame janela = new ExemploPanelLayout();
     }
     
 }

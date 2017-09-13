@@ -31,7 +31,7 @@ public class ExemploGridLayout extends JFrame {
         botaoCentro = new JButton("Botão ao Centro");
         botaoLeste = new JButton("Botão ao Leste");
         botaoOeste = new JButton("Botão ao Oeste");
-        layout = new GridLayout();
+        layout = new GridLayout(2, 4, 5, 5);
 
         this.setLayout(layout);
 
