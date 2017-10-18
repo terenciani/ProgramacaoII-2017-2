@@ -1,0 +1,19 @@
+Passo 1 - Abrir PGADMIN3 ou 4
+Passo 2 - Criar banco de dados progii_db
+Passo 3 - Criar tabela usuario: 
+	CREATE TABLE tb_usuario(
+		id_usuario serial primary key,
+		nome varchar(255) not null,
+		sobrenome varchar (255) not null
+	);
+
+* Para visualizar as tabelas criadas clique no nome do banco -> schemas -> public -> tables
+
+Passo 4 - fazer download do JDBC: https://jdbc.postgresql.org/download.html
+Passo 5 - criar uma pasta "lib" dentro do projeto
+Passo 6 - No netbeans
+		- Clique com o botão direito sobre o projeto
+		- Escolha a opção propriedades
+		- Na janela, em "categorias" escolha "Bibliotecas"
+		- "Adicionar JAR/Pasta"
+		- Selecionar o diretório onde o jar foi colocado
