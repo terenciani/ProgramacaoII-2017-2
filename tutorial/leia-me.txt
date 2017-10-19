@@ -17,3 +17,5 @@ Passo 6 - No netbeans
 		- Na janela, em "categorias" escolha "Bibliotecas"
 		- "Adicionar JAR/Pasta"
 		- Selecionar o diretório onde o jar foi colocado
+
+Passo 7 - Criar classe de TesteConexao

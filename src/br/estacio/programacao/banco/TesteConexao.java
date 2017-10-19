@@ -8,6 +8,7 @@ package br.estacio.programacao.banco;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -26,6 +27,15 @@ public class TesteConexao {
         try {
             conexao = DriverManager.getConnection(URL, USUARIO, SENHA);
             System.out.println("Conetou");
+            String sql = "INSERT "
+                    + "INTO "
+                    + "tb_usuario (nome, sobrenome)"
+                    + "VALUES ('Marcelo', 'Terenciani')";
+            Statement sttm = conexao.createStatement();
+            
+            sttm.executeUpdate(sql);
+            conexao.close();
+            
         } catch (SQLException ex) {
             Logger.getLogger(TesteConexao.class.getName()).log(Level.SEVERE, null, ex);
         }
