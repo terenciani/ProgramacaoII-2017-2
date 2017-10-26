@@ -16,13 +16,13 @@ import java.util.logging.Logger;
  * @author Marcelo
  */
 public class Conexao {
-    private final String URL_BANCO  = "jdbc:postgres://localhost:5432/progii_bd";
-    private final String USUARIO    = "postgres";
-    private final String SENHA      = "postgres"; //estacio@123
+    private static final String URL_BANCO  = "jdbc:postgres://localhost:5432/progii_bd";
+    private static final String USUARIO    = "postgres";
+    private static final String SENHA      = "postgres"; //estacio@123
     
-    private String status           = "Não conectado ...";
+    private static String status           = "Não conectado ...";
     
-    public Connection criarConexao(){
+    public static Connection criarConexao(){
         Connection conexao = null;
     
         try {
