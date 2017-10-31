@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  * @author Marcelo
  */
 public class Conexao {
-    private static final String URL_BANCO  = "jdbc:postgres://localhost:5432/progii_bd";
+    private static final String URL_BANCO  = "jdbc:postgresql://localhost:5432/progii_bd";
     private static final String USUARIO    = "postgres";
     private static final String SENHA      = "postgres"; //estacio@123
     
